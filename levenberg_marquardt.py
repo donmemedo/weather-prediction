@@ -1,4 +1,4 @@
-# Code adapted from Gavin, H.P. (2020) The Levenberg-Marquardt method for 
+# Code adapted from Gavin, H.P. (2020) The Levenberg-Marquardt method for
 # nonlinear least squares curve-fitting problems.
 # https://people.duke.edu/~hpgavin/ce281/lm.pdf
 
@@ -514,3 +514,4 @@ def make_lm_plots(x,y,cvg_hst):
     ax4.set_title('Objective Function',fontdict=font_title)
     ax4.zaxis.set_rotate_label(False)
     ax4.azim = 225
+    plt.show()
